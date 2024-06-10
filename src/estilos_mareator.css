@@ -1,0 +1,219 @@
+.miniletra {
+  font-size: 14px;
+}
+.cabecera {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 58px;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  vertical-align: top;
+}
+.localizador {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 35px;
+  bottom: 20px;
+  left: 0px;
+  /* background-color: #e8edff; */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+.btn {
+  color: white;
+}
+.contenido {
+  position: relative;
+  z-index: 98;
+  width: 100%;
+  top: 69px;
+  bottom: 40px;
+  left: 0;
+}
+.pie {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  height: 20px;
+  right: 0;
+  background-color: #dadada;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+}
+/* .estilo_1linea {
+  color: "white";
+  background-color: "DodgerBlue";
+  padding: "5px";
+  font-size: "22px";
+  font-family: "Sans-Serif";
+} */
+
+.tabla_barrainfo {
+  width: 100%;
+  border-collapse: collapse;
+
+  border: 1px solid black;
+}
+
+/* .td_barrainfo {
+  padding: 50;
+  text-align: center;
+  vertical-align: middle;
+} */
+
+.rotated-text {
+  transform: rotate(270deg);
+}
+.desplegable_elemento {
+  background-color: #5fb2d8;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  width: 100px;
+}
+.desplegable_ancho {
+  max-width: 20px;
+  /* border: 1px solid black; */
+}
+.letra_pequeña {
+  font-size: 14px;
+}
+/* .enlace_discreto {
+
+} */
+.pie a {
+  color: white;
+  text-decoration: none;
+}
+
+.pie a:hover {
+  color: white;
+}
+
+.pie a:active {
+  color: white;
+}
+
+.tabla_datos {
+  width: 100%;
+  border: 1px solid black;
+}
+
+/* scroll telefono */
+
+.scrolling-container {
+  overflow-x: hidden; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent elements from wrapping to new lines */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+.scrolling-item {
+  display: inline-block; /* Make elements inline and scroll horizontally */
+  height: 35px; /* Set the desired height to 25px */
+
+  background-color: #f0f0f0; /* Optional: Add a background color for better visibility */
+  padding: 5px; /* Remove padding */
+  margin: 0; /* Remove margin */
+
+  cursor: pointer; /* Change the cursor to a pointer to indicate interactivity */
+  border-right: 1px solid rgb(112, 112, 112);
+}
+/* Optional: Add styles for the link effect on hover */
+.link:hover {
+  color: #007bff; /* Change the text color on hover */
+  text-decoration: none; /* Add an underline on hover */
+  /* Add any other styles you want to apply when hovering */
+  background-color: #cbe8e9; /* Optional: Add a background color for better visibility */
+}
+.scrolling-item.active {
+  background-color: #3f5872; /* Style for the active option */
+  color: #fff;
+}
+.letragrande {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.etiqueta-info {
+  height: 85px;
+}
+.etiqueta-info tr {
+  height: 77px;
+}
+/* .navbar-pequeno {
+  font-size: 0.2rem;
+  padding: 0.1rem 0.2rem;
+} */
+
+.navbar {
+  margin-left: 0px;
+  justify-content: flex-end;
+  font-size: 18px;
+  height: 70px;
+}
+
+/* .navbar-toggler-icon {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 4px;
+} */
+
+.navbar-brand {
+  margin-right: 1px;
+  padding: 1px;
+}
+
+.navbar-nav {
+  margin-right: -25px;
+  margin-left: 0px;
+  margin-top: 7px;
+  width: max-content;
+  background-color: rgb(235, 235, 238);
+  border-right: 1px solid rgb(112, 112, 112);
+}
+.nav-link {
+  background-color: rgb(140, 140, 150);
+  margin-left: 5px;
+  justify-content: flex-end;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+/* Optional: To change the background color of the active link */
+.nav-link.active {
+  background-color: rgb(28, 42, 71);
+  margin-left: 5px;
+  justify-content: flex-end;
+}
+
+/* .navbar-toggler {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 30px;
+  height: 30px;
+} */
+
+.navbar-toggler-icon {
+  font-size: 0.6em;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+/* .navbar-wrapper {
+  position: fixed;
+  z-index: 999;
+
+  bottom: -10px;
+  left: 0;
+  right: 0;
+} */
+
+.navbar-nav .nav-link:last-child {
+  border-right: none;
+  border-left: none;
+}
